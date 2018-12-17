@@ -1,5 +1,5 @@
 properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '1', numToKeepStr: '1'))])
-
+echo "Discard old builds"
 node{
    stage('SCM Checkout'){
      git 'https://github.com/javahometech/my-app'
