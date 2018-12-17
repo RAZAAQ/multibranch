@@ -1,0 +1,19 @@
+Suresh Vemulapalli
+aws@cash123
+
+
+
+properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '1', numToKeepStr: '1'))])
+
+
+ https://cashapona.signin.aws.amazon.com/console
+
+User:
+username : cpuser
+password : --
+
+
+admin:
+
+username : cpadmin
+password : Cash@81321
